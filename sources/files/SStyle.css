@@ -1,0 +1,189 @@
+html, body
+{	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+h1,h2,h3,h4
+{
+	font: inherit;
+
+}
+body {
+	line-height: 1;
+}
+
+/* === End of CSS RESET === */
+
+body 
+{
+	color: white;
+	
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+{ 
+
+.wrapper div {
+	display: none;
+}
+
+
+.sp-canvas {
+	display: none;
+}
+
+.arrow {
+	display: none;
+}
+
+.demo { 
+
+		}
+
+.demo .arrow {
+	display: none;
+}
+
+.description {
+display: none;}
+
+.syntax {
+display: none;}
+
+.scrollbar {
+display: none;}
+
+.rotations {
+display: none;}
+
+.rotations .upside-down {
+display: none;}
+
+.source {
+display: none;}
+
+.follow {
+display: none;}
+
+.follow .big {
+display: none;
+}
+
+.highlight {
+display: none;
+}
+
+
+}
+
+.wrapper div {
+	position: absolute;
+}
+
+
+.sp-canvas {
+	display: none;
+}
+
+.arrow {
+	position: relative;
+	display: inline-block;
+}
+
+.demo { 
+
+		}
+
+.demo .arrow {
+	font-size: 20px;
+	animation: point-down 0.5s alternate infinite;
+}
+
+.description {
+	top: 740px;
+	left: 180px;
+	width: 20%;
+}
+
+.syntax {
+	top: 1510px;
+	left: 430px;
+	width: 20%;
+}
+
+.scrollbar {
+	top: 1540px;
+	left: 1600px;
+	width: 20%;
+}
+
+.rotations {
+	left: 2185px;
+	top: 660px;
+	width: 20%;
+	transform: rotate(-90deg) translateY(2.5em);
+}
+
+.rotations .upside-down {
+	font-size: 42px;
+	text-align: right;
+	transform: rotate(180deg) translateY(3em);
+}
+
+.source {
+	left: 2200px;
+	top: -800px;
+	width: 20%;
+	transform: rotate(90deg) translateX(50px);
+}
+
+.follow {
+	width: 20%;
+	left: 1100px;
+	top: -950px;
+	transform: rotate(90deg) translateX(50px);
+}
+
+.follow .big {
+	font-size: 40px;
+}
+
+.highlight {
+	animation: highlight 0.2s alternate 6 ;
+}
+
+
+.Conent-main
+{
+	width: 100%;
+	position: relative;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+}
+.Content-left
+{
+
+	float:left;	
+	width:100%;
+	display: block;
+}
+div.header
+{
+	position: fixed;
+	top: 0;
+	height:60;	
+	width:100%;
+}
+.footer
+{
+	position:fixed;
+	height:170;
+	width:100%;
+	background-color: black;
+	opacity:0.7;
+	bottom: 0px;
+}

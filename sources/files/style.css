@@ -1,0 +1,38 @@
+body 
+{
+  margin: 0;
+  background: #000;
+  background-image:url('bg.jpg');
+
+ 
+}
+@media (min-width: 767px) {
+	background-image:url('Menubg.jpg');
+}
+@media (max-width: 767px) {
+    video 
+	{
+        background: url('bg.jpg') center center / cover no-repeat;
+    }
+
+    video {
+        display: none;
+    }
+}
+video 
+{ 
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -100;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url('bg.jpg') no-repeat;
+   background-size: cover;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;
+}
